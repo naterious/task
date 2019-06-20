@@ -1,0 +1,37 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+      "max-line-length": {
+          "options": [80]
+      },
+      "new-parens": true,
+      "no-arg": true,
+      "no-bitwise": true,
+      "no-conditional-assignment": true,
+      "no-consecutive-blank-lines": false,
+      "quotemark": [ true, "single" ],
+      "eofline": false,
+      "interface-name": [true, "never-prefix"],
+      "no-angle-bracket-type-assertion": false,
+      "ordered-imports": [
+          true,
+          {
+            "import-sources-order": "any",
+            "named-imports-order": "any"
+          }
+      ],
+      "only-arrow-functions": false,
+      "object-literal-sort-keys": false,
+      "no-console": {
+          "severity": "warning",
+          "options": [
+              "debug",
+              "info",
+              "log",
+              "time",
+              "timeEnd",
+              "trace"
+          ]
+      }
+  }
+}

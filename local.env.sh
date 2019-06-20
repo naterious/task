@@ -1,0 +1,3 @@
+export NODE_CONFIG_DIR=environments
+export NODE_ENV=local
+export VAULT_TOKEN=devtoken

@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    "remark-preset-lint-recommended",
+    "lint",
+    "lint-no-empty-sections",
+    "lint-no-trailing-spaces",
+    ["lint-list-item-indent", "space"],
+    ["lint-code-block-style", "fenced"],
+    "lint-no-consecutive-blank-lines",
+    "lint-heading-increment",
+    "lint-no-paragraph-content-indent",
+    ["lint-no-undefined-references", false],
+    ["@freeletics/remark-lint-blank-lines", "0-1"],
+    "lint-first-heading-level"
+  ]
+}
